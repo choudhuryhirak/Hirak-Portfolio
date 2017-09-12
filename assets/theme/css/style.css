@@ -424,3 +424,200 @@ nav .mbr-section-btn {
 	top: 0;
 	left: -2400px;
 }
+
+footer {
+    padding: 15px 0
+}
+footer ul {
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none
+}
+footer ul li {
+    display: inline-block
+}
+footer ul li a {
+    color: inherit;
+    padding: 15px;
+    font-size: 12px;
+    border-radius: 3px;
+    position: relative;
+    display: block
+}
+footer ul li .btn {
+    margin: 0
+}
+footer ul.links-horizontal:first-child a {
+    padding-left: 0
+}
+footer ul.links-horizontal:last-child a {
+    padding-right: 0
+}
+footer ul.links-vertical li {
+    display: block;
+    margin-left: -5px;
+    margin-right: -5px
+}
+footer ul.links-vertical li a {
+    padding: 5px
+}
+footer .social-buttons .btn,
+footer .social-buttons a {
+    margin-top: 5px;
+    margin-bottom: 5px
+}
+footer .footer-brand {
+    float: left;
+    height: 50px;
+    padding: 15px;
+    font-size: 18px;
+    line-height: 20px;
+    margin-left: -15px
+}
+footer .footer-brand:focus,
+footer .footer-brand:hover {
+    color: #3C4858
+}
+.footer-black .copyright,
+.footer-black .footer-brand,
+.footer-black .footer-brand:focus,
+.footer-black .footer-brand:hover,
+.footer-black h4,
+.footer-black h5,
+.footer-black i,
+.subscribe-line.subscribe-line-image .title {
+    color: #FFF
+}
+footer .copyright {
+    padding: 15px 0
+}
+footer .copyright .material-icons {
+    font-size: 18px;
+    position: relative;
+    top: 3px
+}
+footer .pull-center {
+    display: inline-block;
+    float: none
+}
+.footer-big {
+    padding: 30px 0
+}
+.footer-big .content {
+    text-align: left
+}
+.footer-big .social-feed i {
+    font-size: 20px;
+    display: table-cell;
+    padding-right: 10px
+}
+.footer-big .social-feed p {
+    display: table-cell;
+    vertical-align: top;
+    overflow: hidden;
+    padding-bottom: 10px;
+    max-width: 300px
+}
+.footer-big .gallery-feed img {
+    width: 20%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    float: left
+}
+.footer-white {
+    background-color: #FFF
+}
+.footer-gray {
+    background-color: #eee
+}
+.footer-black {
+    background: #232323;
+    background: -moz-radial-gradient(center, ellipse cover, #585858 0, #232323 100%);
+    background: -webkit-gradient(radial, center center, 0, center center, 100%, color-stop(0, #585858), color-stop(100%, #232323));
+    background: -webkit-radial-gradient(center, ellipse cover, #585858 0, #232323 100%);
+    background: -o-radial-gradient(center, ellipse cover, #585858 0, #232323 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #585858 0, #232323 100%);
+    background: radial-gradient(ellipse at center, #585858 0, #232323 100%);
+    background-size: 550% 450%
+}
+.footer-black a {
+    color: #FFF;
+    opacity: .86
+}
+.footer-black a:focus,
+.footer-black a:hover {
+    opacity: 1
+}
+.footer-black hr {
+    border-color: rgba(255, 255, 255, .2)
+}
+
+.social-line {
+    padding: 15px 0
+}
+.social-line-big-icons [class*=col-] {
+    border-right: 1px solid #eee
+}
+.social-line-big-icons [class*=col-]:last-child {
+    border: 0
+}
+.social-line-big-icons .btn {
+    margin: 0;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+.index-page .features-1 .info .info-title,
+.presentation-page .features-1 .info .info-title,
+.subscribe-line .card {
+    margin-top: 30px
+}
+.social-line-big-icons .btn .fa {
+    font-size: 25px
+}
+.subscribe-line {
+    padding: 30px 0
+}
+.subscribe-line.subscribe-line-image {
+    position: relative;
+    background-position: top center;
+    background-size: cover
+}
+.subscribe-line.subscribe-line-image:after {
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    display: block;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, .66)
+}
+.subscribe-line.subscribe-line-image .container {
+    z-index: 2;
+    position: relative
+}
+.noUi-base,
+.noUi-handle {
+    position: relative;
+    z-index: 1
+}
+.social-line-white,
+.subscribe-line-white {
+    background-color: #FFF
+}
+.social-line-black,
+.subscribe-line-black {
+    background: #232323;
+    background: -moz-radial-gradient(center, ellipse cover, #585858 0, #232323 100%);
+    background: -webkit-gradient(radial, center center, 0, center center, 100%, color-stop(0, #585858), color-stop(100%, #232323));
+    background: -webkit-radial-gradient(center, ellipse cover, #585858 0, #232323 100%);
+    background: -o-radial-gradient(center, ellipse cover, #585858 0, #232323 100%);
+    background: -ms-radial-gradient(center, ellipse cover, #585858 0, #232323 100%);
+    background: radial-gradient(ellipse at center, #585858 0, #232323 100%);
+    background-size: 550% 450%
+}
+.social-line-black [class*=col-],
+.subscribe-line-black [class*=col-] {
+    border-color: rgba(255, 255, 255, .1)
+}
